@@ -1,0 +1,26 @@
+<h1>lista de super heroes</h1>
+
+<dl>
+    <div class="secciondl">
+        <td>nombre: </td>
+        <dd>{{nombre}}</dd>
+    </div>
+
+    <div class="secciondl">
+        <td>super poder: </td>
+        <dd>{{superPoder}}</dd>
+    </div>
+    <div class="secciondl">
+        <td>Funcion: </td>
+        <dd>{{obtenerNombre()}}</dd>
+    </div>
+    <div class="secciondl">
+        <td>capitalizado: </td>
+        <dd>{{nombreCapitalizado}}</dd>
+    </div>
+
+    <div class="secciondlbutton">
+        <button (click)="cambiarNombre()">cambiar heroe</button>
+        <button (click)="cambiarSuperPoder()">cambiar super poder </button>
+    </div>
+</dl>
